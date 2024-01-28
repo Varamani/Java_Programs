@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity test(failed)">
+    <classes>
+      <class name="SeleniumBasics.Class3">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Class3 -->
+    </classes>
+  </test> <!-- Sanity test(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

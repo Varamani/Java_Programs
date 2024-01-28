@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Sanity Test">
+   <test name="Sanity test" parallel="methods">
+    <classes>
+      <class name="SeleniumBasics.Class2" />
+    </classes>
+  </test>
+  
+</suite> 
+
+
